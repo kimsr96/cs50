@@ -51,3 +51,85 @@ git remote add origin https://github.com/kimsr96/cs50.git
 git push -u origin main
 git branch -M main
 git status
+git add .
+git commit -m misson1
+git config --global user.email "kimsr_96@naver.com"
+git config --global user.name "kimsr96"
+git push origin master
+git push -u origin main
+git remote add origin https://github.com/kimsr96/cs50.git
+git push -u origin main
+git pull origin master
+git push -f origin master
+git push -u origin +master
+git push -u origin +main
+git branch -M main
+git branch -M master
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kimsr96/cs50.git
+git push -u origin main
+git remote add origin https://github.com/kimsr96/cs50.git
+git push -u origin main
+git log
+make whi
+make who
+./who.c
+./who
+who < 10.txt
+1
+2
+who < 10.txt
+./who 10.txt
+./who < 10.txt
+2
+3
+make who
+./who
+make queue
+make score
+./score
+make queue
+./queue
+make queue
+./queue
+make queue
+./queue
+make queue
+./queue
+make queue
+./queue
+make score
+./score
+make queue
+./queue
+make queue
+./queue
+make queue
+./queue
+make queue
+./queue
+make queue
+./count
+./queue
+make queue
+./queue
+make queue
+./queue
+make queue
+./queue
+make queue
+./queue
+make queue
+./queue
+make queue
+./queue
+make queue
+./queue
+make queue
+./queue
+make queue
+./queue
+40
+git status
