@@ -1,42 +1,25 @@
 #include <stdio.h>
 #include <cs50.h>
 
+int count = 0;
+int array[10] = {};
+void add(),pop(),display();
 
 
 int main(void){
-    int num, insert_num;
-    int array[10] = {};
-    int count = 0;
+    int num;
     bool boolLoop = true;
     while(boolLoop){
         num = get_int("입력 : ");
         switch(num){
             case 1:
-                if (count < 10){
-                    insert_num = get_int("삽입할 값 : ");
-                    array[count] = insert_num;
-                    count++;
-                    break;
-                }else{
-                    printf("Queue가 꽉 찼습니다.\n");
-                }
+               add();
+               break;
             case 2:
-                if (count == 0){
-                    printf("큐가 비어있음\n");
-                }else{
-                    printf("큐에서 삭제됨 : %d\n", array[0]);
-                    for (int j=0; j<count; j++){
-                        array[j]=array[j+1];
-                    }
-                    count--;
-                }
+                pop();
                 break;
             case 3:
-                printf("큐 : ");
-                for(int i=0; i< count; i++){
-                printf("%d ",array[i]);
-                }
-                printf("\n");
+                display();
                 break;
             case 4:
                 boolLoop = false;
@@ -49,6 +32,37 @@ int main(void){
         printf("4. 종료\n");
     }
     return 0;
+}
 
+void add(){
+    int insert_num;
+    if (count < 10){
+                    insert_num = get_int("삽입할 값 : ");
+                    array[count] = insert_num;
+                    count++;
+    }else{
+        printf("Queue가 꽉 찼습니다.\n");
+    }
+}
 
+void pop(){
+    if (count == 0){
+        printf("큐가 비어있음\n");
+    }else{
+        printf("큐에서 삭제됨 : %d\n", array[0]);
+        for (int j=0; j<count; j++){
+        array[j]=array[j+1];
+    }
+    count--;
+}
+}
+
+void display(){
+    printf("큐 : ");
+
+    for(int i=0; i< count; i++){
+    printf("%d ",array[i]);
+    }
+
+    printf("\n");
 }

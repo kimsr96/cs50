@@ -133,3 +133,27 @@ make queue
 ./queue
 40
 git status
+git add .
+git commit -m queue
+git push origin master
+git push origin main
+make queue
+./queue
+make queue
+./queue
+make queue
+make count
+help 50 queue
+help50 queue
+make queue
+./queue
+make queue
+./queue
+make queue
+./queue
+make queue
+./queue
+make queue
+./queue
+git status
+git add.
