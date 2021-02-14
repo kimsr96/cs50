@@ -157,3 +157,102 @@ make queue
 ./queue
 git status
 git add.
+git add .
+git commit -m queueFn
+git push origin master
+git push origin main
+git status
+git add .
+git push origin main
+make name
+./name
+make name
+./name
+make iteration
+./iteration
+make mission2
+make
+misson2
+clang mission2
+make mission2
+./mission2
+make mission2
+./mission2
+make mission2
+./mission2
+make misson2
+./mission2
+make mission2
+make mission2.c
+yes
+make mission2
+make misson2
+./mission2
+make misson2
+./mission2
+make address
+./address
+make address
+./address
+make address
+./address
+make address
+./address
+make compare
+./compare
+valgrind ./copy
+valgrind ./compare
+help50 virgrind compare
+make compare
+valgrind ./compare
+make scnaf
+make scanf
+./scanf
+make scanf
+./scanf
+make scanf
+./scanf
+make memory_sample
+./memory_sample
+make memory_1
+./memory_1
+make memory_1
+./memory_1
+make memory_1
+./memory_1
+make memory_1
+valgrind memory_1
+valgrind make memory_1
+help50 valgrind make memory_1
+help50 valgrind memory_1
+make memory_1
+./memory_1
+make 11-01
+./11-01
+valgrind 11-01
+valgrind ./11-01
+make 11-01
+valgrind ./11-01
+make 11-01
+valgrind ./11-01
+make 11-01
+valgrind ./11-01
+help50 valgrind ./11-01
+./11-01 
+help50 valgrind ./11-01
+make 11-01
+help50 valgrind ./11-01
+make list
+./list
+make list3.c
+make list3
+make list3.c
+make list3
+help50 make list3
+make list3
+./list3
+make list3
+./list3
+make list3
+./list3
+git status
